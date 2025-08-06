@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+}
+#link{
+    border: solid 1px;
+    height: 50px;
+    background-color: rgb(101, 22, 175);
+    line-height: 50px;
+    display: flex;
+
+}
+#logo{
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 20px;
+    font-size: 18px;
+
+}
+.box{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+.lin{
+    border: solid 1px;
+    width: 150px;
+    height: 150px;
+}
+
+.lin1{
+    border: solid 1px;
+    width: 1500px;
+    height: 150px;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#clg{
+    font-size: 40px;
+    padding: 5px 0px;
+}
+.navbox{
+    padding-top: opx;
+    display: flex;
+    background-color: rgb(2, 8, 14);
+    height: 50px;
+    border-radius: 30px;
+
+}
+li{
+    color: transparent;
+    line-height: 50px;
+    text-align: center;
+}
+.logo{
+    border: solid 1px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lg1, .lg2, .lg3, .lg4, .lg5{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+img{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+.obox{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+}
+#inbox1, #inbox2, #inbox3{
+    height: 300px;
+    width: 500px;
+}
+#inbox1{
+    0%{
+        background-image: url(image/bits\,img1.jpg);
+    }
+    0%{
+        background-image: url(image/bits.img2.jpg);
+    }
+    20{
+        background-image: url()
+    }
+    30%{
+        background-image: url()
+    }
+
+ }
+#inbox2{
+    background-image: url(image/bits.img2.jpg);
+    animation-name: imgchange;
+    animation-duration: 10s;    
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(image/bits\,img3.jpg);
+    }
+}#inbox3{
+    background-image: url(image/bits\,img1.jpg);
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(image/bits\,img3.jpg);
+    }
+}
+
+
+
+
+

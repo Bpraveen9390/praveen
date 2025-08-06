@@ -1,0 +1,41 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url(image/background.jpg);
+    background-position: 500px 50px;
+    background-size: 500px 700px;
+}
+form{
+    width: 400px;
+    height: 700px;
+    margin-left: 540px;
+    margin-top: 100px;
+}
+h1{
+    color: red;
+    font-size: 32px;
+    text-align: center;
+}
+label{
+    color:blue;
+    font-size: 22px;
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin: 10PX;
+    border-radius: 5px;
+}
+textarea{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 2px;
+}
+center button{
+    width: 100px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 15px;
+}
